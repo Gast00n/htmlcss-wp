@@ -6,18 +6,94 @@
 
 body {
   background-image: url('../img/natural-pattern.png');
+  font-family: 'Montserrat', sans-serif;
 }
 
 .container {
   margin: 20px auto;
-  width:65%;
+  width: 65%;
 }
 
 /* HEADER */
 
+.header-top {
+  background-image: url('../img/natural-header.jpg');
+  background-position: center;
+  background-size: cover;
+  border: 10px solid #fff;
+  text-align: center;
+}
+
+.header-top img {
+  width:50%;
+}
+
+.header-top h2 {
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+/* Menu Principale */
+
+.nav {
+  background: #666666;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+  line-height: 65px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 0px 10px;
+}
+
+.menu li:hover {
+  background-color: #cecece;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu li a img {
+  width: 65px;
+  vertical-align: middle;
+}
+
 /* MAIN CONTENT */
+main {
+  margin: 10px auto;
+}
+
+main::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.col {
+  background: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
 
 /* Colonna SX */
+
+.left-col .org-img i {
+  color:#faa501;
+  font-size: 14px;
+}
+
+.left-col .org-heading h2 {
+  color:#504741;
+  font-size: 14px;
+}
+
+
 
 /* Colonna Centrale */
 
