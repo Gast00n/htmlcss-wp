@@ -134,6 +134,10 @@ ul.secondary-menu {
   font-size: 16px;
 }
 
+ul.secondary-menu li {
+  margin-bottom: 10px;
+}
+
 ul.secondary-menu li a {
   text-decoration: none;
 }
@@ -157,3 +161,29 @@ ul.secondary-menu li a {
   margin-top: 10px;
 }
 /* Colonna DX */
+
+.widget {
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.widget h2 {
+  margin-bottom:10px;
+}
+
+.widget p {
+  line-height: 35px;
+}
+
+/* FOOTER */
+
+footer {
+  background:#fff;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer p {
+  color:#cecece;
+}
