@@ -186,4 +186,38 @@ footer {
 
 footer p {
   color:#cecece;
+  font-style: italic;
+}
+
+ul.menu-social {
+  list-style: none;
+}
+
+ul.menu-social::after {
+  content:'';
+  display:table;
+  clear:both;
+}
+
+ul.menu-social li {
+  float:left;
+  width: 33.3%;
+  padding: 40px;
+}
+
+ul.menu-social li a {
+  color:#cecece;
+  font-size: 40px;
+}
+
+ul.menu-social li:nth-child(1) a:hover {
+  color:#454eff;
+}
+
+ul.menu-social li:nth-child(2) a:hover {
+  color:#ff3020;
+}
+
+ul.menu-social li:nth-child(3) a:hover {
+  color:#000;
 }
