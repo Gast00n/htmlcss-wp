@@ -9,6 +9,10 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+a {
+  color: green;
+}
+
 .container {
   margin: 20px auto;
   width: 65%;
@@ -83,18 +87,60 @@ main::after {
 
 /* Colonna SX */
 
-.left-col .org-img i {
+.col-left,
+.col-right {
+  width:20%;
+  float:left;
+}
+
+.col-left .org-header {
+  margin-bottom: 10px;
+}
+
+.col-left  .org-header::after {
+  content: '';
+  display: table;
+  clear:both;
+}
+
+.col-left .org-img {
+  float:left;
+  width: 20%;
+}
+
+.col-left .org-heading {
+  float:left;
+  width: 80%;
+}
+
+.col-left .org-img i {
   color:#faa501;
-  font-size: 14px;
+  font-size: 35px;
 }
 
-.left-col .org-heading h2 {
+.col-left .org-heading h2 {
   color:#504741;
-  font-size: 14px;
+  font-size: 25px;
 }
 
+/* Menu Secondario */
 
+ul.secondary-menu {
+  list-style: none;
+  line-height: 25px;
+  font-size: 16px;
+}
+
+ul.secondary-menu li a {
+  text-decoration: none;
+}
 
 /* Colonna Centrale */
+
+.col-center {
+  float:left;
+  width:58%;
+  margin: 0 1%;
+}
 
 /* Colonna DX */
