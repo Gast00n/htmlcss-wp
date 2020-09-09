@@ -6,7 +6,7 @@
 
 body {
   background-image: url('../img/natural-pattern.png');
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -30,6 +30,7 @@ h1, h2, h3, h4 {
   background-size: cover;
   border: 10px solid #fff;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .header-top img {
@@ -157,7 +158,7 @@ ul.secondary-menu li a {
 }
 
 .col-center p {
-  line-height: 25px;
+  line-height: 35px;
   margin-top: 10px;
 }
 /* Colonna DX */
