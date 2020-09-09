@@ -13,6 +13,10 @@ a {
   color: green;
 }
 
+h1, h2, h3, h4 {
+  color:#504741;
+}
+
 .container {
   margin: 20px auto;
   width: 65%;
@@ -119,7 +123,6 @@ main::after {
 }
 
 .col-left .org-heading h2 {
-  color:#504741;
   font-size: 25px;
 }
 
@@ -141,6 +144,16 @@ ul.secondary-menu li a {
   float:left;
   width:58%;
   margin: 0 1%;
+  padding: 30px;
 }
 
+.col-center h1 {
+  text-transform: uppercase;
+  text-shadow:  3px 3px 3px rgba(0,0,0, 0.1);
+}
+
+.col-center p {
+  line-height: 25px;
+  margin-top: 10px;
+}
 /* Colonna DX */
