@@ -3,3 +3,12 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+body {
+  background-image: url('../img/natural-pattern.png');
+}
+
+.container {
+  margin: 20px auto;
+  width:65%;
+}
